@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37640" started-at="2019-06-11T19:30:41Z" finished-at="2019-06-11T19:31:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37640" started-at="2019-06-11T19:30:41Z" finished-at="2019-06-11T19:31:19Z">
+      <class name="com.edureka.testCases.RoundTrip">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:com.edureka.testCases.RoundTrip@72b6cbcc]" name="beforeSuiteMethod" is-config="true" duration-ms="6920" started-at="2019-06-12T01:00:34Z" finished-at="2019-06-12T01:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.edureka.testCases.RoundTrip@72b6cbcc]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2019-06-12T01:00:41Z" finished-at="2019-06-12T01:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.edureka.testCases.RoundTrip@72b6cbcc]" name="beforeClassMethod" is-config="true" duration-ms="0" started-at="2019-06-12T01:00:41Z" finished-at="2019-06-12T01:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="roundTrip()[pri:0, instance:com.edureka.testCases.RoundTrip@72b6cbcc]" name="roundTrip" duration-ms="36881" started-at="2019-06-12T01:00:41Z" finished-at="2019-06-12T01:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTrip -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:com.edureka.testCases.RoundTrip@72b6cbcc]" name="afterClassMethod" is-config="true" duration-ms="0" started-at="2019-06-12T01:01:18Z" finished-at="2019-06-12T01:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.edureka.testCases.RoundTrip@72b6cbcc]" name="afterTestMethod" is-config="true" duration-ms="724" started-at="2019-06-12T01:01:18Z" finished-at="2019-06-12T01:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.edureka.testCases.RoundTrip@72b6cbcc]" name="afterSuiteMethod" is-config="true" duration-ms="0" started-at="2019-06-12T01:01:19Z" finished-at="2019-06-12T01:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.edureka.testCases.RoundTrip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
