@@ -24,7 +24,7 @@ public class FlightConfirmation extends BaseClass {
 	@FindBy(xpath="//*[contains(text(),'Taxes')]/following::td[1]")
 	@CacheLookup
 	public WebElement TotalTaxTxt;
-	@FindBy(xpath="/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[7]/td/table/tbody/tr/td[3]/a/img")
+	@FindBy(xpath="/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/body/tr[7]/td/table/tbody/tr/td[3]/a/img")
 	@CacheLookup
 	public WebElement logOffBtn;
 	@FindBy(xpath="/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[7]/td/table/tbody/tr/td[1]/a/img")

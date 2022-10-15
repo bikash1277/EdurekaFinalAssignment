@@ -19,7 +19,7 @@ public class ExtentManager {
 	ExtentTest test;
 	
 	// Current Date & Time
-	public static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+	public static String timeStamp = new SimpleDateFormat("yyyyMMdd_HH-mm-ss").format(Calendar.getInstance().getTime());
 	
 	// Report folder
 	public final static String REPORT_PATH = System.getProperty("user.dir")
@@ -45,7 +45,7 @@ public class ExtentManager {
 		extent.attachReporter(htmlReporter);
 
 		// configuration items to change the look and feel
-		// add content, manage tests etc
+		// add content, manage tests
 //		htmlReporter.config().setChartVisibilityOnOpen(true);
 		htmlReporter.config().setDocumentTitle("Test-Automaton-Report.html");
 		htmlReporter.config().setReportName("Test-Automaton-Report.html");

@@ -41,7 +41,7 @@ public class CommonRunner extends BaseClass {
 		summary=PageFactory.initElements(driver, FlightSummary.class);
 		confirmation=PageFactory.initElements(driver, FlightConfirmation.class);
 		logout = PageFactory.initElements(driver, FlightLogOut.class);
-		PropertyFileReader.setproperty("TestcaseName", "Login to Demo");
+		PropertyFileReader.setProperty("TestcaseName", "Login to Demo");
 	}
 
 	@BeforeClass

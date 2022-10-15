@@ -24,7 +24,7 @@ public class PropertyFileReader {
 	 }
 	
 	
-	public static String setproperty(String key,String value) throws ConfigurationException {
+	public static String setProperty(String key, String value) throws ConfigurationException {
 		PropertiesConfiguration config=new PropertiesConfiguration(configFile);
 		config.setProperty(key, value);
 		config.save();
