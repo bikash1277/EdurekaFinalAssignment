@@ -2,18 +2,15 @@ package com.edureka.testCases;
 
 import org.testng.annotations.Test;
 
-public class LoginCheck extends CommonRunner {
+public class VerifyLogin extends CommonRunner {
 
-    public LoginCheck() throws Exception {
+    public VerifyLogin() throws Exception {
         super();
-
     }
 
-    @Test
+    @Test(priority = 1)
     public void loginCheck() throws Exception {
         login.validateLoginPage("SIGN-ON");
         login.logInMethod();
-        logout.logOff();
-        login.validateRegistrationLink();
     }
 }

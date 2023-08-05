@@ -5,9 +5,9 @@
            errors="0"
            skipped="0"
            time="30.350">
-  <properties />
-  
-  
-            <testcase name="test" time="30.350" classname="Edureka.TestCases.MainRunner" />
-      
+    <properties/>
+
+
+    <testcase name="test" time="30.350" classname="Edureka.TestCases.MainRunner"/>
+
 </testsuite>
